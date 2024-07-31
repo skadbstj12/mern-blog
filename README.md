@@ -37,7 +37,7 @@ export default {
 
 index.css도 다음과 같이 수정합니다.
 
-```bash
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -55,3 +55,31 @@ git branch -M main
 git remote add origin https://github.com/skadbstj12/mern-blog.git
 git push -u origin main
 ```
+
+## Client 설치
+
+```bash
+npm i react-router-dom
+npm i react-icons
+npm install @reduxjs/toolkit react-redux
+npm i redux-persist
+npm install firebase
+npm install react-quill
+```
+
+## 설치
+
+```bash
+npm init -y
+npm i express
+npm i nodemon
+npm i mongoose
+npm i dotenv
+npm i bcryptjs
+npm i jsonwebtoken
+npm i cookie-parser
+```
+
+## 작업 순서
+
+1. client
